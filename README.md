@@ -7,4 +7,13 @@
 4. numpy
 
 # Instructions to run
-To run pipeline
+To run pipeline:
+```bash
+Dry run: snakemake -n
+Actual run: snakemake --cores [number of cores]
+
+Run snakemake --unlock if directory is locked
+When re-running pipeline, clean previous files by running:
+rm x_y_vals.npy
+snakemake --delete-all-output --cores [number of cores]
+```
