@@ -1,0 +1,13 @@
+setup_filename: bixeng_platemap.csv
+
+data_filename: bixeng_luci.csv
+
+joined_data_filename: joined_exp_data.csv
+
+qc_filename: QC_report.txt
+
+model_filename: loess_model.pickle
+
+xy_filename: x_y_vals.npy
+
+plot_filename: less_model_output.png
